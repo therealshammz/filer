@@ -1,0 +1,37 @@
+source_folder: '~/Downloads'
+destinations:
+  ~/Pictures:
+    - '.jpg'
+    - '.png'
+    - '.jpeg'
+    - '.gif'
+    - '.heic'
+  ~/Documents:
+    - '.pdf'
+    - '.docx'
+    - '.txt'
+    - '.csv'
+    - '.epub'
+    - '.md'
+    - '.markdown'
+    - '.pptx'
+  ZIPs:
+    - '.zip'
+    - '.tar'
+    - '.gz'
+    - '.7z'
+    - '.rar'
+  Apps:
+    - '.deb'
+    - '.flatpak'
+    - '.flatpakref'
+  ~/Documents/Code:
+    - '.py'
+    - '.sh'
+    - '.html'
+  ~/Music:
+    - '.mp3'
+    - '.wav'
+  ~/Videos:
+    - '.mp4'
+    - '.mov' 
