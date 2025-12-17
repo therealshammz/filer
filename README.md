@@ -14,13 +14,13 @@ A Python-based tool to automatically organize files in a specified directory bas
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/smart-file-organizer.git
-    cd smart-file-organizer
+    git clone https://github.com/therealshammz/filer.git
+    cd filer
     ```
 
 2.  **Create a virtual environment (recommended):**
     ```bash
-    python -m venv venv
+    python3 -m venv venv
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
     ```
 
@@ -51,7 +51,7 @@ A Python-based tool to automatically organize files in a specified directory bas
 
 2.  **Run the organizer script:**
     ```bash
-    python organizer.py
+    python3 organizer.py
     ```
 
     The script will perform an initial scan of the `source_folder` and then start monitoring for new files.
@@ -74,7 +74,7 @@ You can use the following flags to control the script's behavior:
 
 ```bash
 # Run a dry run with verbose output
-python organizer.py -d -v
+python3 organizer.py -d -v
 ```
 
 ## Log File
