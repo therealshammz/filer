@@ -14,7 +14,7 @@ A Python-based tool to automatically organize files in a specified directory bas
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/smart-file-organizer.git
+    git clone https://github.com/therealshammz/smart-file-organizer.git
     cd smart-file-organizer
     ```
 
@@ -51,7 +51,7 @@ A Python-based tool to automatically organize files in a specified directory bas
 
 2.  **Run the organizer script:**
     ```bash
-    python organizer.py
+    python3 organizer.py
     ```
 
     The script will perform an initial scan of the `source_folder` and then start monitoring for new files.
