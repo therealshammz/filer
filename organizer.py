@@ -103,11 +103,11 @@ def main():
     parser = argparse.ArgumentParser(description="Organize files automatically.")
     parser.add_argument('-v', '--verbose', action='store_true',
                         help="Enable verbose output to console.")
-    parser.add_argument('--config-file', default='config.yaml',
+    parser.add_argument('-c', '--config-file', default='config.yaml',
                         help="Path to the configuration file.")
-    parser.add_argument('--dry-run', action='store_true',
+    parser.add_argument('-d', '--dry-run', action='store_true',
                         help="Perform a dry run without moving files.")
-    parser.add_argument('--no-initial-scan', action='store_true',
+    parser.add_argument('-n', '--no-initial-scan', action='store_true',
                         help="Skip the initial scan of the source folder.")
     args = parser.parse_args()
 

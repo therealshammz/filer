@@ -14,7 +14,7 @@ A Python-based tool to automatically organize files in a specified directory bas
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/therealshammz/smart-file-organizer.git
+    git clone https://github.com/your-username/smart-file-organizer.git
     cd smart-file-organizer
     ```
 
@@ -51,7 +51,7 @@ A Python-based tool to automatically organize files in a specified directory bas
 
 2.  **Run the organizer script:**
     ```bash
-    python3 organizer.py
+    python organizer.py
     ```
 
     The script will perform an initial scan of the `source_folder` and then start monitoring for new files.
@@ -66,15 +66,15 @@ You can use the following flags to control the script's behavior:
 | Flag | Shorthand | Description |
 |---|---|---|
 | `--verbose` | `-v` | Prints detailed output of file movements to the console in real-time. |
-| `--config-file <path>` | | Specifies the path to a configuration file. Defaults to `config.yaml`. |
-| `--dry-run` | | Simulates the organization process without moving any files. Perfect for testing your configuration. |
-| `--no-initial-scan` | | Skips the initial scan of the source folder and only monitors for new files. |
+| `--config-file <path>` | `-c` | Specifies the path to a configuration file. Defaults to `config.yaml`. |
+| `--dry-run` | `-d` | Simulates the organization process without moving any files. Perfect for testing your configuration. |
+| `--no-initial-scan` | `-n` | Skips the initial scan of the source folder and only monitors for new files. |
 
 **Example:**
 
 ```bash
 # Run a dry run with verbose output
-python organizer.py --dry-run -v
+python organizer.py -d -v
 ```
 
 ## Log File
